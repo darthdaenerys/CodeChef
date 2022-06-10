@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 #define ll long long int
-#define fastio ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 using namespace std;
 void solve()
 {
-    ll n,i;
+    ll i,n;
     cin>>n;
     ll a[n];
     bool even=0,odd=0;
@@ -41,5 +40,4 @@ int main()
         solve();
         cout<<"\n";
     }
-	return 0;
 }
