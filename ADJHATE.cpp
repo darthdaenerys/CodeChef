@@ -34,9 +34,8 @@ void solve()
 }
 int main()
 {
-    fastio
     ll t;
-    cin>>t;
+    t=1;
     while(t--)
     {
         solve();
